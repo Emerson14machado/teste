@@ -1,0 +1,146 @@
+body{
+ background-color:black;
+    color: #ff0077;
+}
+
+
+.men{
+text-align: center;
+
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px;
+   text-shadow: 16px 16px 32px #ff0077;
+}
+
+
+form{
+    box-shadow: 16px 16px 32px #ff0077,
+    -16px -16px 32px #ff0077 ;
+    font-size: 4rem;
+    border-radius: 30px;
+}
+
+.card{
+    width: 650px;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+margin-left:35%; 
+
+}
+
+.usu{
+    margin: 30px;
+    width:200px ;
+    height: 40px;
+    font-size:2rem ;
+    border-radius: 20px;
+    border-color:#ff0077 ;
+}
+.usu input{
+    width: 580px;
+    height:40px ;
+    font-size: 2rem;
+    border-radius: 20px;
+    border-color:#ff0077 ;
+}
+.ema{
+    margin: 30px;
+    width:200px ;
+    height: 40px;
+    font-size:2rem ;
+    border-radius: 20px;
+    border-color:#ff0077 ;
+}
+
+.ema input{
+    width: 580px;
+    height:40px ;
+    font-size: 2rem;
+    border-radius: 20px;
+    border-color:#ff0077 ;
+
+}
+
+
+
+
+.ende{
+width: 580px;
+height: 40px;
+font-size: 2rem;
+border-radius: 20px;
+}
+
+.ende input{
+    width: 580px;
+    height: 40px;
+    font-size: 2rem;
+    border-radius: 20px; 
+}
+
+
+
+.bb{
+    margin: 5%;
+    width: 580px;
+    height:40px ;
+    font-size: 2rem;
+}
+
+.bb input{
+    width: 100px;
+    height:40px ;
+    font-size: 2rem;
+    background-color: #ff0077;
+    border-radius: 20px;
+    border-color:black ;
+}
+
+
+@media (max-width:768px) {
+    .men {
+        display: block;
+    }
+
+    .card {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .usu {
+        ;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .conteudo {
+        display: inline;
+    }
+
+    section img {
+        padding: 15px;
+    }
+
+    .container-footer{
+        display: inline-block;
+        text-align: center;
+    }
+
+    footer p{
+        text-align: center;
+    }
+    
+    .coluna{
+        margin-bottom: 30px;
+    }
+}
